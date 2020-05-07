@@ -16,6 +16,7 @@ public class Example {
         /* Looped Code */
         while(true) {
 	    motor.set(ControlMode.PercentOutput, 0.1);
+            //motor.set(ControlMode.PercentOutput, 0.1);
 
             com.ctre.phoenix.unmanaged.Unmanaged.feedEnable(100);
 
